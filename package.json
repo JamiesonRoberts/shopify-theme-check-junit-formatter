@@ -1,0 +1,31 @@
+{
+  "name": "shopify-theme-check-junit-formatter",
+  "version": "0.0.1",
+  "description": "Converts a JSON formatted Shopify Theme Check output into JUnit for consuming in a CI pipeline",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ./**/*.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "Shopify Theme Check",
+    "junit",
+    "formatter",
+    "test output"
+  ],
+  "author": "Jamieson Roberts",
+  "license": "MIT",
+  "dependencies": {
+    "xmlbuilder2": "^3.1.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "prettier": "3.2.5"
+  }
+}
